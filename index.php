@@ -89,6 +89,9 @@ if (isset($koneksi) && !$koneksi->connect_errno) {
                     <button type="submit">Kirim Request</button>
                     <button type="button" class="btn-outline" onclick="setEndpoint('referensi/dpho')">Test Referensi Obat (DPHO)</button>
                     <button type="button" class="btn-outline" onclick="setEndpoint('referensi/poli')">Test Referensi Poli</button>
+                    <button type="button" class="btn-outline" style="border-color: #8b5cf6; color: #8b5cf6;" onclick="window.location.href='daftar_resep.php'">Cek Daftar Resep</button>
+                    <button type="button" class="btn-outline" style="border-color: #06b6d4; color: #06b6d4;" onclick="window.location.href='simpan_resep.php'">Simpan Resep</button>
+                    <button type="button" class="btn-outline" style="border-color: var(--danger); color: var(--danger);" onclick="window.location.href='hapus_pelayanan_obat.php'">Hapus Pelayanan Obat</button>
                     <button type="button" class="btn-outline" style="border-color: var(--success); color: var(--success);" onclick="window.location.href='rekap_prb.php'">Ke Menu Rekap PRB &rarr;</button>
                 </div>
             </form>
