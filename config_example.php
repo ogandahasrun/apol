@@ -19,6 +19,7 @@ define('DB_NAME', 'sik'); // Sesuaikan dengan nama database SIMRS Anda
 
 // Konfigurasi Web Service BPJS Mobile JKN (Antrol v2)
 // Catatan: Jika nilai di bawah dikosongkan, aplikasi akan otomatis membaca nilai dari database SIMRS
+define('KODE_PPK_APOTEK', ''); // KODE PPK APOTEK
 define('BPJS_CONS_ID', ''); 
 define('BPJS_SECRET_KEY', ''); 
 define('BPJS_USER_KEY', ''); 
